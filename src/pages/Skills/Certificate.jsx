@@ -11,12 +11,12 @@ const certificate = [
   {
     title: "The complete web development bootcamp",
     date: "2022-2023",
-    link: "/portfolio/images/webdevcert.pdf",
+    link: "/mykeportfolio/portfolio/images/webdevcert.pdf",
   },
   {
     title: "The Ultimate React Course: React, Redux & More - Udemy",
     date: "2023-2024",
-    link: "/portfolio/images/reactcert.pdf",
+    link: "/mykeportfolio/portfolio/images/reactcert.pdf",
   },
 ];
 
@@ -121,18 +121,17 @@ const Certificate = () => {
               </h3>
               <p className="text-gray-400 mb-2">{cert.date}</p>
 
-              {cert.link &&
-         
-                  <div key={certificate.id}>
-                    <a
-                      onClick={() => handleOpenPDF(cert.link)}
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                    >
-                      View Certificate {certificate.id}
-                    </a>
-                  </div>
-                }
+              {cert.link && (
+                <div key={certificate.id}>
+                  <a
+                    onClick={() => handleOpenPDF(cert.link)}
+                    className="text-blue-400 hover:underline"
+                    href="#"
+                  >
+                    View Certificate {certificate.id}
+                  </a>
+                </div>
+              )}
             </motion.div>
           ))}
         </motion.div>

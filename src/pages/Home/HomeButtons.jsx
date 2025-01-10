@@ -4,7 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const HomeButtons = () => {
   const handleOpenPDF = () => {
     window.open(
-      "/portfolio/images/resume.pdf",
+      "/mykeportfolio/portfolio/images/resume.pdf",
       "_blank",
       "noopener,noreferrer"
     );
