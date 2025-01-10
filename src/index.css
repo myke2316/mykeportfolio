@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FOR STICKY NAVBAR THIS WILL BE THE EFFECT */
+/* nav{
+  background-image: radial-gradient(
+  transparent 1px,
+  var(--token-f32baa44-90b8-42a5-8bca-ffba9d95b23a, #171717) 1px
+);
+background-size: 4px 4px;
+backdrop-filter: blur(3px);
+mask: linear-gradient(rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
+opacity: 1;
+} */
+
+* {
+  font-family: "Gabarito", sans-serif;
+  font-style: normal;
+}
+
+body {
+  color: white;
+}
+
+nav ul li a {
+  cursor: pointer;
+}
+
+.main-frame {
+}
+@media (min-width: 1500px) {
+  .portfolio-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
