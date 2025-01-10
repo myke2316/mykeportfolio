@@ -15,7 +15,7 @@ const MobileNavBar = () => {
         className="flex justify-center gap-10 items-center p-4 mx-0 w-full bg-neutral-900 border rounded-md"
       >
         <li>
-          <Link to={"/"}>
+          <Link to={"/mykeportfolio"}>
             <HouseIcon />
           </Link>
         </li>

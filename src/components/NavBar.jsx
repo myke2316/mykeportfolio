@@ -8,11 +8,10 @@ const NavBar = () => {
         initial={{ scale: 1, y: "0" }}
         animate={{ scale: 1, y: "0" }}
         transition={{ duration: 1, delay: 0.2 }}
-       
         className="flex justify-between items-center py-5 lg:mx-[100px] mx-0"
       >
         <li>
-          <Link to={"/"}>Home</Link>
+          <Link to={"/mykeportfolio"}>Home</Link>
         </li>
         <li>
           <Link to={"/about"}>About</Link>
