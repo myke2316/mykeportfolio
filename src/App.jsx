@@ -16,7 +16,7 @@ const AnimatedRoutes = () => {
       <Routes location={location} key={location.pathname}>
         <Route element={<AppLayout />}>
           {/* CHANGED TO REPOSITORY NAME */}
-          <Route element={<Home />} path="/mykeportfolio" /> 
+          <Route element={<Home />} path="/" /> 
           <Route element={<About />} path="/about" />
           <Route element={<Skills />} path="/skills" />
           <Route element={<Portfolio />} path="/portfolio" />
