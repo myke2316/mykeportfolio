@@ -28,7 +28,7 @@ const AnimatedRoutes = () => {
 };
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/mykeportfolio">
     <AnimatedRoutes />
   </BrowserRouter>
 );
