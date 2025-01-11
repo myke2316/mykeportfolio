@@ -28,7 +28,7 @@ const AboutContainer = () => {
           delay: 0,
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        className="grid grid-cols-2 gap-2 p-5"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-2 p-5"
       >
         <AboutDetails title={"Age"} value={"21 years old"} />
         <AboutDetails title={"Phone(PH)"} value={"+63 995-893-6110"} />
