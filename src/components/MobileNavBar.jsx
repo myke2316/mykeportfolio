@@ -16,7 +16,8 @@ const MobileNavBar = () => {
         initial={{ scale: 1, y: "0" }}
         animate={{ scale: 1, y: "0" }}
         transition={{ duration: 1, delay: 0.2 }}
-        className="flex justify-around items-center p-4 mx-0 w-full bg-neutral-900 border rounded-md"
+        className="flex justify-around items-center p-4 mx-0 w-full bg-neutral-900/50 border rounded-md backdrop-blur-md"
+
       >
         <li className="relative group transition-all duration-300 transform hover:scale-110">
           <Link
