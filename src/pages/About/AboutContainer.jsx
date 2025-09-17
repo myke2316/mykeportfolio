@@ -34,7 +34,7 @@ const AboutContainer = () => {
         <AboutDetails title={"Phone(PH)"} value={"+63 995-893-6110"} />
         <AboutDetails title={"Email"} value={"leianmykecastillo@gmail.com"} />
         <AboutDetails title={"City"} value={"Tanauan City, Batangas"} />
-        <AboutDetails title={"College Level"} value={"4th Year College"} />
+        <AboutDetails title={"College Graduate"} value={"2021-2025"} />
       </motion.div>
     </div>
   );
