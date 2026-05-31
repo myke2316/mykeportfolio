@@ -15,7 +15,7 @@ const AboutContainer = () => {
         className="text-[15px] opacity-[80%] px-4"
       >
         Hello! I am Leian Myke Castillo an aspiring Web Developer and Software
-        Developer. A 4th year college IT student at Batangas State University
+        Developer. A College Graduate at Batangas State University
         Malvar Campus actively honing my skills.{" "}
       </motion.p>
 
