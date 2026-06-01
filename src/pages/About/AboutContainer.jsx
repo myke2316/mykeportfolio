@@ -1,6 +1,7 @@
 import AboutDetails from "./AboutDetails";
 import { motion } from "motion/react";
 const AboutContainer = () => {
+
   return (
     <div>
       <motion.p
